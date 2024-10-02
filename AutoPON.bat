@@ -1,5 +1,5 @@
 @echo off
 
-set file=E:\AutoLab\AutoPON
+set file=AutoLab\AutoPON
 
 python AutoLab\Authenticator\Authenticator.py && python AutoLab\AutoLogin\AutoLogin.py %file%
